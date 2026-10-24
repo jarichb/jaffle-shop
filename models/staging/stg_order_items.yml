@@ -15,3 +15,10 @@ models:
               arguments:
                 to: ref('stg_orders')
                 field: order_id
+      - name: product_id
+        data_type: bigint
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
