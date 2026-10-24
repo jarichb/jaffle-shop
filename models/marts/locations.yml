@@ -8,6 +8,7 @@ models:
     agg_time_dimension: opened_date
     columns:
       - name: location_id
+        description: The unique key of a shop location.
         entity:
           type: primary
           name: location
