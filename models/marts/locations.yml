@@ -13,6 +13,7 @@ models:
           type: primary
           name: location
       - name: location_name
+        description: The name the shop trades under.
         dimension:
           type: categorical
       - name: opened_date
