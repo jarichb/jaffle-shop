@@ -24,7 +24,7 @@ models:
       - name: count_lifetime_orders
         description: Total number of orders a customer has ever placed.
       - name: first_ordered_at
-        description: The timestamp when a customer placed their first order.
+        description: When the customer placed their first order (UTC).
         granularity: day
         dimension:
           type: time
