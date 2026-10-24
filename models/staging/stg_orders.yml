@@ -1,3 +1,4 @@
+# Test edit on main, in a file the next proposal does not touch.
 models:
   - name: stg_orders
     description: Order data with basic cleaning and transformation applied, one row per order.
