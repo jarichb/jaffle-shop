@@ -12,6 +12,7 @@ models:
           type: primary
           name: location
       - name: location_name
+        description: The location's public name, shown on receipts.
         dimension:
           type: categorical
       - name: opened_date
