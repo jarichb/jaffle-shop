@@ -17,7 +17,7 @@ models:
         dimension:
           type: categorical
       - name: opened_date
-        description: The day the shop opened.
+        description: The day the shop first opened its doors.
         granularity: day
         dimension:
           type: time
