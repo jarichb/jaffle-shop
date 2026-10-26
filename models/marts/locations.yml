@@ -16,6 +16,7 @@ models:
         dimension:
           type: categorical
       - name: opened_date
+        description: The day the location first opened.
         granularity: day
         dimension:
           type: time
