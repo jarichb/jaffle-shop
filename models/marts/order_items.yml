@@ -26,6 +26,11 @@ models:
         entity:
           type: foreign
           name: product
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('products')
+                field: product_id
       - name: ordered_at
         granularity: day
         dimension:
