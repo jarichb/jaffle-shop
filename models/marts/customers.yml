@@ -37,6 +37,8 @@ models:
         description: The sum of all the pre-tax subtotals of every order a customer has placed.
       - name: lifetime_tax_paid
         description: The sum of all the tax portion of every order a customer has placed.
+        data_tests:
+          - unique
       - name: lifetime_spend
         description: The sum of all the order totals (including tax) that a customer has ever placed.
       - name: customer_type
